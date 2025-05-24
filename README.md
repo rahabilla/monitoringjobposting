@@ -86,14 +86,15 @@ Reloading the Streamlit app will show updated results after each run.
 
 ```bash
 
-your-repo/
-├── app.py                    # Streamlit web UI
-├── clustered_jobs.csv        # Final dataset after clustering
-├── jobpostingscrape.py       # Main script for scraping and clustering
-├── karkidi_model.pkl         # Saved clustering model
-├── karkidi_vectorizer.pkl    # Saved TF-IDF vectorizer
-├── requirements.txt          # List of required Python packages
-└── README.md                 # Project documentation (this file)
+.
+├── app.py                  # Streamlit-based user interface 
+├── clustered_jobs.csv      # Output CSV of job listings with cluster labels
+├── jobclassification.py    # Core script: scraping, preprocessing & clustering
+├── karkidi_model.pkl       # Saved clustering model
+├── karkidi_vectorizer.pkl  # Saved TF-IDF vectorizer
+├── requirements.txt        # Required dependencies
+└── README.md               # Project documentation
+
 
 ```
 
