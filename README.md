@@ -85,15 +85,17 @@ Reloading the Streamlit app will show updated results after each run.
 ##  Directory Layout
 
 ```bash
+
 your-repo/
-├── daily_scrape_and_cluster.py     # Core script for scraping and clustering
-├── app.py                          # Streamlit-based web interface
-├── clustered_jobs.csv              # Output data containing clustered listings
-├── model/
-│   ├── karkidi_model.pkl           # Trained model file
-│   └── karkidi_vectorizer.pkl      # TF-IDF feature extractor
-├── requirements.txt                # Dependency list
-└── README.md                       # Project guide and overview
+├── app.py                    # Streamlit web UI
+├── clustered_jobs.csv        # Final dataset after clustering
+├── jobpostingscrape.py       # Main script for scraping and clustering
+├── karkidi_model.pkl         # Saved clustering model
+├── karkidi_vectorizer.pkl    # Saved TF-IDF vectorizer
+├── requirements.txt          # List of required Python packages
+└── README.md                 # Project documentation (this file)
+
 ```
+
 
 ---
