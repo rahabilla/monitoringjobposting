@@ -7,6 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1drLBeBeyYOQcml3T5EErckAhPhdIf9HR
 """
 
+!pip install joblib
 
 
 import requests
